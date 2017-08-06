@@ -17,9 +17,9 @@
 $(call inherit-product, device/lenovo/p2a42/full_p2a42.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aos/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_p2a42
+PRODUCT_NAME := aos_p2a42
 BOARD_VENDOR := Lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
